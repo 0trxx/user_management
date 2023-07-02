@@ -21,7 +21,7 @@ public class AddServlet extends HttpServlet {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/anton" , "root" , "Redface@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/anton" , "root" , "***********");
 			
 			String n=request.getParameter("txtName");
 			String p=request.getParameter("txtPwd");
